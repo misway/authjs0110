@@ -14,6 +14,6 @@
   },
   "dependencies": {
     "@auth/core": "^0.9.0",
-    "@hebilicious/authjs-nuxt": "0.1.8"
+    "@hebilicious/authjs-nuxt": "0.1.10"
   }
 }
