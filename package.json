@@ -15,7 +15,7 @@
   "dependencies": {
     "nuxt": "latest",
     "@auth/core": "^0.9.0",
-    "@hebilicious/authjs-nuxt": "0.1.10"
+    "@hebilicious/authjs-nuxt": "latest"
   },
   "overrides": {
     "nitropack": "npm:nitropack-edge@latest"
