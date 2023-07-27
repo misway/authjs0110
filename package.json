@@ -9,11 +9,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@types/node": "^18.16.19",
-    "nuxt": "^3.6.3"
+    "nuxt": "^3.6.5",
+    "@types/node": "^18.16.19"
   },
   "dependencies": {
+    "nuxt": "latest",
     "@auth/core": "^0.9.0",
     "@hebilicious/authjs-nuxt": "0.1.10"
+  },
+  "overrides": {
+    "nitropack": "npm:nitropack-edge@latest"
   }
 }
