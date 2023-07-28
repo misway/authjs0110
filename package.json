@@ -15,9 +15,18 @@
   "dependencies": {
     "nuxt": "latest",
     "@auth/core": "^0.9.0",
-    "@hebilicious/authjs-nuxt": "v0.2.0-beta.4"
+    "@hebilicious/authjs-nuxt": "v0.2.0-beta.4",
+    "nitropack": "npm:nitropack-edge@latest"
   },
   "overrides": {
     "nitropack": "npm:nitropack-edge@latest"
+  },
+  "resolutions": {
+    "nitropack": "npm:nitropack-edge@latest"
+  },
+  "pnpm": {
+    "overrides": {
+      "nitropack": "npm:nitropack-edge@latest"
+    }
   }
 }
