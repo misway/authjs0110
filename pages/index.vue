@@ -19,5 +19,5 @@
   </div>
 </template>
 <script setup>
-  const { signIn, signOut, session, status, cookies } = useAuth()
+  const { signIn, signOut, session, status, cookies, getProviders } = useAuth()
 </script>
