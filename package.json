@@ -13,8 +13,7 @@
     "@types/node": "^20.5.0"
   },
   "dependencies": {
-    "nuxt": "^3.6.5",
-    "@auth/core": "^0.10.0",
+    "@auth/core": "^0.10.4",
     "@hebilicious/authjs-nuxt": "v0.3.0-beta.2",
     "h3": "1.8.0-rc.3",
     "nitropack": "npm:nitropack-edge@latest"
