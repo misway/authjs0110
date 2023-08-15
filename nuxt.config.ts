@@ -22,6 +22,6 @@ export default defineNuxtConfig({
   alias: {
     "cookie": resolve(__dirname, "node_modules/cookie"),
     "jose": resolve(__dirname, "node_modules/jose/dist/browser/index.js"),
-    // "@panva/hkdf": resolve(__dirname, "node_modules/@panva/hkdf/dist/web/index.js")
+    "@panva/hkdf": resolve(__dirname, "node_modules/@panva/hkdf/dist/web/index.js")
   },
 })
